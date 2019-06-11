@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+
+
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+    <!-- 开启注解，因为每次启动都会调用下面两个类，所以springMVC将其集成到一个配置里面，配置了
+    这个，下面两个启用注解的类就可以不配置了 -->
+    <!--<mvc:annotation-driven />-->
+
+    <!-- 启用spring mvc 注解 -->
+    <context:annotation-config/>
+
+    <!-- 此配置的作用是用来扫描所有需要注解的类，只有被扫描的类才能使用注解 -->
+    <context:component-scan base-package="com.danbay.tool.controller" />
+    <context:component-scan base-package="com.danbay.api.test" />
+    <context:component-scan base-package="com.danbay.socket" />
+    <context:component-scan base-package="com.danbay.project" />
+    <context:component-scan base-package="com.danbay.task" />
+    <context:component-scan base-package="com.danbay.test_filter" />
+    <context:component-scan base-package="com.danbay.test_device" />
+    <context:component-scan base-package="com.danbay.websocket" />
+    <!--<context:component-scan base-package="controller.page_admin" />-->
+
+    <!--<mvc:default-servlet-handler/>-->
+
+    <!--等同于  <mvc:annotation-driven />  spring Mvc启用注解扫描 -->
+    <!--<bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter" />-->
+
+    <!-- jsp视图解析器 -->   
+     <bean id="jspViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+     <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
+     <property name="prefix" value="/WEB-INF/page/"/>
+     <property name="suffix" value=".jsp"/>
+ </bean> 
+    
+    
+</beans>

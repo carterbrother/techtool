@@ -1,0 +1,437 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin: 0; padding: 0; word-wrap: break-word }
+body, html, input { font-size: 12px; font-family: '微软雅黑'; background:#fff; }
+body { width: 100%; }
+html.off, html.off body { background: #e2e9ea url(../images/left_bg.png) repeat-y -40px top; }
+html.on, html.on body { background: #e2e9ea; background-image: none; }
+html.addbg, html.addbg body { background: #e2e9ea }
+body fieldset { border: 1px solid #D8D8D8; padding: 10px; }
+body fieldset legend { padding: 3px 8px; font-weight: 700; border: 1px solid #D8D8D8; background-color: #F9F9F9; }
+body fieldset.blue { border: 1px solid #dce3ed }
+body fieldset.blue legend { padding: 3px 8px; font-weight: 700; color: #347add; background: none; border: none }
+table { border-collapse: collapse; border-spacing: 0; }
+table.borEee{ border: 1px solid #eee}
+input,textarea, select {background:#fff; font-size:12px;}
+input[type="checkbox"] { vertical-align:middle; margin-right:3px;}
+img { border: none }
+a { text-decoration: none; color: #444; blr:expression(this.onFocus=this.blur());
+}
+a:hover { text-decoration: underline; }
+a:focus { outline: none; }
+ul, ol, li { list-style: none; }
+input, label, img, th { vertical-align: middle; }
+ul, ol, li { list-style: none; }
+.pad-10 { padding: 10px; }
+.clear:after { display: block; visibility: hidden; clear: both; height: 0; content: "." }
+.clear { zoom: 1 }
+label.error { margin-left: 3px; color: #f30; }
+.button { background: #ddd; height: 24px; border-top: 0; border-left: 0; border-bottom: 1px solid #666; border-right: 1px solid #666; padding: 3px 6px; margin-right: 5px }
+header { display: block }
+address, cite, dfn, em, var { font-style: normal; }
+code, kbd, pre, samp { font-family: courier new, courier, monospace; }
+.white, .white a { color: #5f5f5f }
+.blue, .blue a { color: #004499 }
+.red, .red a, a.red { color: #ff0000; vertical-align: -moz-middle-with-baseline; }
+.green { color: #0E774A }
+.tdbg { background-color: #eef3f7 }
+.hidden { display: none; }
+.invisible { visibility: hidden; }
+.col-left { float: left }
+.col-auto {position: relative; overflow: hidden; _zoom: 1; _float: left; margin-left: 205px; }
+input[type="text"], input[type="password"] { height: 22px; line-height: 22px; }
+input[type="text"], input[type="password"], textarea, select { color: #333333; border-style: solid; border-width: 1px; border-color: #ABADB3 #E2E3EA #E2E3EA #ABADB3; }
+input[type="text"], input[type="password"], textarea, select { padding: 2px 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; resize: none; vertical-align: middle; }
+input[type="text"]:focus, input[type="text"]:hover, input[type="text"]:active, input[type="password"]:focus, input[type="password"]:hover, input[type="password"]:active, textarea:hover, textarea:focus, textarea:active { color: #33464F; background-color: #fff; border: 1px solid; border-color: #71CBEF; -moz-box-shadow: 0 0 5px rgba(82, 168, 236, 0.5); -webkit-box-shadow: 0 0 5px rgba(82, 168, 236, 0.5); box-shadow: 0 0 5px rgba(82, 168, 236, 0.5); }
+input[type="submit"] { background: #FF9900; border: 1px solid #FF9900; color: #FFFFFF;  border-radius: 5px; box-shadow: 0 1px 0 rgba(255, 255, 255, 0.7), 0 -1px 0 rgba(0, 0, 0, 0.09); cursor: pointer; display: inline-block; letter-spacing: 2px; overflow: visible; padding: 0px 6px; text-align: center; transition: box-shadow 0.2s linear 0s; width: auto; height: 24px;
+}
+input[type="button"] { background: #ddd; border: 1px solid #ccc; color: #333; border-radius: 5px; box-shadow: 0 1px 0 rgba(255, 255, 255, 0.7), 0 -1px 0 rgba(0, 0, 0, 0.09); cursor: pointer; display: inline-block; letter-spacing: 2px; overflow: visible; padding: 0px 6px; text-align: center; transition: box-shadow 0.2s linear 0s; width: auto; height: 24px;
+}
+input[type="reset"] { background: #ddd; border: 1px solid #ccc; color: #333; border-radius: 5px; box-shadow: 0 1px 0 rgba(255, 255, 255, 0.7), 0 -1px 0 rgba(0, 0, 0, 0.09); cursor: pointer; display: inline-block; letter-spacing: 2px; overflow: visible; padding: 0px 6px; text-align: center; transition: box-shadow 0.2s linear 0s; width: auto; height: 24px;
+}
+/*Í·²¿*/
+/*.crumbs,*/ .tab-web-panel li a:hover, .tab-web-panel li.on a { background: url(http://resource.danbay.cn/common/images/icon_use.png) no-repeat }
+.header { background:url(http://resource.danbay.cn/common/images/top_bg.jpg); height: 82px; width:100%; position:relative;z-index:11; }
+.header .logo, .header .admin_logo, .header .adminb_logo { position:absolute; left:0; top:0px; width: 330px; height: 80px; margin-right: 10px; _margin-right: 7px; }
+.header .logo a, .header .admin_logo a, .header .adminb_logo a { display: block; height: 80px; text-decoration: none; }
+.header .rt { width: 290px; }
+.zonghe .logo{background:url(http://resource.danbay.cn/common/images/logozh.png); width: 320px;  }
+.openManger .logo{background:url(http://resource.danbay.cn/common/images/openlogo.png); width: 320px; }
+.header .col-auto {height: 80px;  overflow:hidden; position:absolute; left:160px; top:0; }
+.header .nav { line-height: 30px; height:30px; background:url(http://resource.danbay.cn/common/images/top_nav_bg.jpg) no-repeat center 0; min-width: 850px; }
+.header .nav a, .header .nav a:hover { text-decoration: none; }
+.header .nav li a {display:block; padding:0 17px; font-size: 14px;  text-align:center;  overflow:hidden; color:#5f5f5f;}
+.header .nav li {white-space: nowrap; float: left; }
+.header .nav li.on a { background:url(http://resource.danbay.cn/common/images/top_nav_selected.png) no-repeat 0 0;  color:#fff;  width:130px;  padding:0; }
+.header .nav li.tab_web { position: relative }
+.header .nav li.tab_web a { position: absolute; }
+.header .nav li.tab_web a, .header .nav li.tab_web a span { background: url(../images/site.png) no-repeat; height: 34px; line-height: 34px; *line-height:38px;
+_float: left }
+.header .nav li.tab_web { background: none; line-height: 38px; vertical-align: middle; padding: 0; }
+.header .nav li.tab_web a { padding: 0; padding-left: 10px; cursor: hand; !important;
+cursor: pointer; white-space: nowrap; }
+.header .nav li.tab_web a:hover, .header .nav li.tab_web a.on { text-decoration: none; color: #3a6ea5; background-position: left -40px; }
+.header .nav li.tab_web a span { display: block; padding-right: 24px; background-position: right 2px; }
+.header .nav li.tab_web a:hover span, .header .nav li.tab_web a.on span { background-position: right -40px; }
+.header .col-auto { height: 80px }
+.header .log { padding: 16px 0 0 6px; height: 20px }
+.header .tab_style { padding: 16px 14px 0 0 }
+.header .all_menu{position:relative;z-index:11;float:right; padding:15px 10px 0 0;}
+.header .top_menu_nav{  position: relative; top:15px; padding: 0 12px;}
+.header .m_left{background: url(http://resource.danbay.cn/common/images/top_nav_left.png) no-repeat; width: 12px;line-height: 30px; position: absolute;top:0; left: 0;  height: 30px; }
+.header .m_right{background: url(http://resource.danbay.cn/common/images/top_nav_right.png) no-repeat; width: 12px;line-height: 30px;position: absolute;top:0; right: 0;  height: 30px; }
+/*Ö÷ÌåÑùÊ½*/
+.left_menu { left: 0; height: 100%; padding: 15px 15px 15px 0; margin-right: 12px; _margin-right: 10px;  width: 195px; position:absolute; display: block;
+	background: #F2F2F2; }
+.left_menu_on { width: 0; padding: 0; }
+.left_menu_on div { visibility: hidden; _display: none }
+.left_menu h3 { background-color: #f0f0f0; font-weight: 700; color: #666; padding-right: 8px; text-align:center; border-bottom: 1px solid #d9e4ea; line-height: 40px; height: 40px; _width: 112px; _margin-right: 12px; cursor: pointer; font-size: 14px; }
+.left_menu ul li {display: block; _margin-right: 2px ;
+	background: #F2F2F2; border-bottom: 1px solid #d9e4ea;
+	height: 40px;}
+.left_menu ul li a { color: #666; line-height: 40px; text-align: center; display: block; text-decoration: none;
+	font-size:14px; }
+.left_menu ul li.on{background: url(http://resource.danbay.cn/common/images/left_ico_light.gif) 15px center no-repeat; background-color:  #feb381;}
+.left_menu h3 span {background: url(http://resource.danbay.cn/common/images/left_menu.png) no-repeat; text-decoration: none}
+.left_menu ul li a:hover{ background: url(http://resource.danbay.cn/common/images/left_ico_light.gif) 15px center no-repeat; background-color:  #fff;}
+.left_menu ul li.on { margin: 0 }
+.left_menu ul li.on a { padding: 0; display: block ; color:#fff }
+.left_menu ul li.on a:hover { background: none }
+.left_menu a.open, .left_menu a.close { background: url(http://resource.danbay.cn/common/images/left_menu_openClose.png) no-repeat 3px center; width: 10px; display: block; position: absolute; z-index: 100; height: auto; right: 3px; top: 0 }
+.left_menu a.open:hover, .left_menu a.close:hover { background-color: #d6e1e4 }
+.left_menu a.close { background-position: right center }
+.left_menu h3 span { background-position: -33px -78px; display: block; float: right; height: 14px; width: 14px; margin: 11px 11px 0 0 }
+.left_menu h3 span.on { background-position: 4px -78px; }
+.left_menu .hidden { display: none; }
+.left_menu ul{ /*border-bottom: 1px solid #fff*/}
+/*µ±Ç°Î»ÖÃ*/
+.crumbs { background-position: left -18px;width:10000px;height:22px; padding: 12px 0 0 0; *height:20px;*padding:8px 0 0 18px;}
+.shortcut { float: right; position: relative; top: -3px; *top:-4px;
+}
+.shortcut a { margin-left: 6px; padding-left: 6px; color: #0364ae }
+.shortcut a, .shortcut a span { background: url(../images/bnt_bg.png) no-repeat 0 -83px; height: 21px; line-height: 21px; *line-height:24px;
+_line-height: 20px; text-align: center; }
+.shortcut a span { background-position: right -83px; padding-right: 6px; }
+/*ÈÝÆ÷ÑùÊ½*/
+.col-1 { border: 1px solid #f4f6f5; zoom: 1; background: #fff }
+.col-1 div.content { border: 1px solid #c2d1d8; zoom: 1; }
+.col-2 { border: 1px solid #c7d8ea; zoom: 1; }
+.col-2 h6 { border-bottom: 1px solid #c7d8ea; color: #3a6ea5; background: url(http://resource.danbay.cn/common/images/x_bg.png) repeat-x left -42px; height: 26px; line-height: 28px; padding: 0 10px }
+.col-2 div.content { padding: 9px 10px }
+/*À¸Ä¿²Ëµ¥*/
+.cat-menu { width: 180px; margin: 10px 8px 0 0; }
+.cat-menu div.content { padding-left: 8px }
+.fav-nav, .fav-nav span, .fav-nav a { height: 28px; line-height: 28px; background: url(http://resource.danbay.cn/common/images/fav-nav-bg.png) repeat-x left top; }
+.fav-nav { padding: 0 0 0 12px; position: absolute; left: 0; bottom: 0px; width: 100%; }
+/*·ÖÒ³*/
+#pages { padding: 14px 0 10px; font-family: ËÎÌå; text-align: right }
+#pages a { display: inline-block; height: 22px; line-height: 22px; background: #fff; border: 1px solid #e3e3e3; text-align: center; color: #333; padding: 0 10px }
+#pages a.a1 { background: url(http://resource.danbay.cn/common/images/pages.png) no-repeat 0 5px; width: 56px; padding: 0 }
+#pages a:hover { background: #f1f1f1; color: #000; text-decoration: none; }
+#pages span { display: inline-block; height: 22px; padding: 0 10px; line-height: 22px; background: #5a85b2; border: 1px solid #5a85b2; color: #fff; text-align: center; }
+.page .noPage { display: inline-block; height: 22px; line-height: 22px; background: url(http://resource.danbay.cn/common/img/icu/titleBg.png) repeat-x 0 -55px; border: 1px solid #e3e3e3; text-align: center; color: #a4a4a4; }
+.pagination { text-align: center; margin: 0 auto; width: 100%; margin: 10px 0; padding: 4px 0 }
+.pagination a { padding: 2px 5px; margin: 2px; color: #036cb4; border: #fff 1px solid; text-decoration: none; }
+.pagination a:hover { border: #999 1px solid; color: #666; }
+.pagination a:active { border: #999 1px solid; color: #666; }
+.pagination .current { border: #036cb4 1px solid; padding: 2px 5px; font-weight: bold; margin: 2px; color: #fff; background-color: #036cb4; }
+.pagination .disabled { border: #eee 1px solid; padding: 2px 5px; margin: 2px; color: #ccc; }
+/*±í¸ñÉÏÃæµÄÑùÊ½*/
+.explain-col { zoom: 1; background: #f3f5f8; padding: 5px 10px; line-height: 40px; margin-bottom: 5px; margin-top: 5px; }
+.explain-col a { color: #00F; }
+.explain-col p { line-height: 25px; }
+.explain-col table { clear: both; display: inline-table; vertical-align: middle }
+/*±í¸ñ*/
+.table-list01 { margin-top: 8px;white-space:nowrap;}
+.table-list01 td, .table-list01 th { padding-left: 6px; padding-right: 6px; border: 1px solid #d5dfe8; white-space:nowrap;}
+.table-list01 thead th { height: 30px; background: #eef3f7; border: 1px solid #d5dfe8; font-weight: normal;white-space:nowrap; }
+.table-list01 tbody td { border: #d5dfe8 1px solid; padding-top: 5px; padding-bottom: 5px;white-space:nowrap; }
+.table-list01 a { color: #00F }
+.table-list01 tr:hover, .table-list01 table tbody tr:hover { background: #fbffe4 }
+/*±í¸ñ±íµ¥2*/
+.table-list td, .table-list th { padding-left: 6px; padding-right: 6px; border-top: 1px solid #eee; }
+.table-list thead th { height: 30px; background: #eef3f7; border-top: 1px solid #eee; font-weight: normal }
+.table-list tbody td { border-bottom: #eee 1px solid; padding-top: 5px; padding-bottom: 5px; word-break : break-all; word-wrap : break-word; }
+.table-list a { color: #00F }
+.table-list tr:hover, .table-list table tbody tr:hover { background: #fbffe4 }
+/*±í¸ñ*/
+.table-list02 { margin-top: 8px;word-wrap: break-word; word-break: normal;}
+.table-list02 table {table-layout:fixed; }
+.table-list02 td, .table-list01 th { padding-left: 6px; padding-right: 6px; border: 1px solid #d5dfe8;}
+.table-list02 thead th { height: 30px; background: #eef3f7;padding-left: 6px; padding-right: 6px;  border: 1px solid #d5dfe8;white-space:nowrap; }
+.table-list02 tbody td { border: #d5dfe8 1px solid; padding-top: 5px; padding-bottom: 5px;word-wrap: break-word; word-break: normal;  }
+.table-list02 a { color: #00F }
+.table-list02 tr:hover, .table-list01 table tbody tr:hover { background: #fbffe4 }
+/*±í¸ñ±íµ¥*/
+.table_form { font-size: 12px }
+.table_form td { padding-left: 12px }
+.table_form th { font-weight: normal; text-align: right; padding-right: 10px; color: #777 }
+.table_form td label { vertical-align: middle }
+.table_form td, .table_form th { padding: 8px 0 8px 8px }
+.table_form tbody td, .table_form tbody th { border-bottom: 1px solid #eee; }
+.table_form a { color: #00f }
+.table_form strong { color: #F00 }
+.table-list01 .table_noborder, .table-list01 .table_noborder td, .table-list01 .table_noborder tbody td, .table-list01 .table_noborder tbody td { border: 0px; }
+.table-list .table_noborder, .table-list .table_noborder td, .table-list .table_noborder tbody td, .table-list .table_noborder tbody td { border: 0px; }
+.wordbr{word-wrap: break-word;word-break: normal;word-break:break-all; }
+/*ÌáÊ¾±ß¿ò*/
+.system_tip { background-color: #fcf8ea; border: 1px dashed #fed473; color: #f60; padding: 10px; margin:5px auto}
+
+/*µÇÂ¼*/
+#loginBox { background: url(http://resource.danbay.cn/common/images/login.png) no-repeat 0px 0px; width: 738px; height: 506px; margin: 0 auto; position: relative; }
+#loginBox div { width: 450px; height: 32px; padding: 0px; margin: 0px; position: absolute; }
+#loginBox div.passcode { top: 158px; left: 105px; }
+#loginBox div.username { top: 212px; left: 105px; }
+#loginBox div.password { top: 268px; left: 105px; }
+#loginBox div.code { top: 323px; left: 105px; }
+#loginBox div.code img { width: 90px; height: 26px; cursor: pointer }
+#loginBox div h5 { font-size: 14px; color: #2B4253; line-height: 32px; font-weight: normal; display: block; float: left; padding: 0px 25px 0px 15px; margin: 0px; }
+#loginBox div input.text { font-family: Tahoma, Geneva, sans-serif; font-size: 12px; line-height: 24px; height: 24px; float: left; padding: 0px; margin: 4px 0px 4px 10px; border-width: 0px; }
+#loginBox div input.btnEnter { font-size: 12px; line-height: 39px; background: url(http://resource.danbay.cn/common/images/login.png) no-repeat right -506px; width: 98px; height: 39px; padding: 0px; margin: 0px; border-width: 0px; cursor: pointer; }
+#loginBox div.code span { float: left; margin-top: 4px; margin-left: 6px; }
+#loginBox div.button { width: 98px; height: 39px; position: absolute; top: 384px; right: 173px; cursor: pointer; }
+#loginBox div.back { line-height: 28px; background: url(http://resource.danbay.cn/common/images/login.png) no-repeat left -506px; width: 120px; height: 30px; padding-left: 40px; position: absolute; top: 390px; left: 97px; }
+#loginBox div.help { line-height: 28px; background: url(http://resource.danbay.cn/common/images/login.png) no-repeat -250px -506px; width: 120px; height: 30px; padding-left: 40px; border: 0; position: absolute; top: 390px; left: 230px; }
+#loginBox div.copyright { font-size: 12px; line-height: 20px; color: #355166; text-align: center; width: 90%; height: 40px; bottom: 3px; position: absolute; left: 0px; right: 0px; }
+/*ÏÂÀ­Ñ¡ÔñºóÌ¨*/
+.select {position: absolute;z-index: 11;right: 50px; cursor: pointer;}
+.select span {position: absolute;top: 5px;left:-100px;font-weight: bold;color: #000;}
+.select dl{width: 130px;border-radius: 4px;color: #4a4d50;}
+.select dt{position: absolute;top: 0;padding: 5px;text-align: center;border-radius: 4px;border:1px solid #f4f6f9;margin-bottom: -10px;color: #394349;width: 140px;background: rgba(209,210,211,0.98) url("http://resource.danbay.cn/common/images/up.png") no-repeat 117px 9px; height: 18px; background-repeat: no-repeat; background-position:131px 9px;-pie-background-color:rgba(209,210,211,0.98); }
+.select dd{z-index: -1; display: none; position: absolute;top: 18px;border-radius: 4px;display: none;background-color: rgba(211,212,213,0.9);-pie-background: rgba(211,212,213,0.9);color: #394349;width: 150px;padding-bottom: 10px;border:1px solid #f4f6f9;}
+.select dd a{display: block;padding: 5px;padding-top:15px; text-align: center; color: #394349;}
+.view {position: relative;width: 96%;margin:0 auto;overflow: hidden;height: 31px;}
+.view-left-btn {display:none;z-index:100;position: absolute;top:0;left:0;width: 24px; height: 32px;background: url("http://resource.danbay.cn/common/images/left_btn.png") no-repeat 0 12px;}
+.view-right-btn {display: none;z-index:100;position: absolute;top:0;right:0;width: 24px; height: 32px;background: url("http://resource.danbay.cn/common/images/right_btn.png") no-repeat 0 12px;}
+.select-mainland-title {display: block;font-weight: bold;color:#000;padding: 5px;padding-top: 25px;padding-bottom:15px;text-align: center;}
+.select-mainland {display: none}
+.select-mainland-titlex {display: block;font-weight: bold;color:#000;padding: 5px;padding-top: 15px;padding-bottom:15px;text-align:center;}
+.select-hland {display: none;}
+
+
+
+/*头部logo样式*/
+
+.header div.logoImg {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 58px;
+	height: 58px;
+	border: 1px solid #FF9900;
+	background: #FF9900;
+	border-radius: 50%;
+}
+
+.header img.logoImg {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	width: 44px;
+	height: 48px;
+}
+.header>div>span.logoName {
+	font-size: xx-large;
+	position: absolute;
+	left: 90px;
+	top: 15px;
+}
+
+
+
+	/*新增样式*/
+.projectsTips {
+	width: 100%;
+	height: 36px;
+	line-height: 36px;
+	background: #FF9900;
+	box-sizing: border-box;
+	padding-left: 20px;
+	color: #ffffff;
+	margin-bottom: 10px;
+}
+.table-list td {
+	font-family:'微软雅黑';
+	font-size: 12px;
+}
+.table-list  tr{
+	height: 40px;
+}
+.editFile {
+	width: 90%;
+	box-sizing: border-box;
+	padding: 10px;
+	font-family:'微软雅黑';
+
+}
+.editFile .addeditFile {
+	height: 36px;
+	line-height: 36px;
+}
+.editFile .addeditFile span{
+	float: right;
+	text-align: center;
+	height: 24px;
+	line-height: 24px;
+	width: 100px;
+	border: 1px solid #333;
+	border-radius: 5px;
+	background: #eeeeee;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+.editFile .addeditFile p.floorD {
+	float: left;
+	margin-left: 50px;
+}
+a.button {
+	margin-left: 20px;
+	border-radius: 5px;
+}
+
+
+table#deviceTab{
+	margin:15px auto;
+	font-family: '微软雅黑';
+	color:#000000;
+	font-size: 12px;
+	text-align:center;
+	border-collapse:collapse;
+	height: 400px;
+}
+table#deviceTab td,table#deviceTab th{
+	border:1px solid #CCCCCC;
+	width:100px;
+}
+table#deviceTab th {
+	height: 40px;
+	background: #eef3f7;
+}
+table#deviceTab th.ads,table#deviceTab td.ads {
+	width: 200px;
+}
+table#deviceTab th.deviceNum,table#deviceTab td.deviceNum {
+	width: 300px;
+}
+table#deviceTab th.proName,table#deviceTab td.proName {
+	width: 200px;
+}
+table#deviceTab td p span.sp1 {
+	margin-right: 40px;
+	margin-left: 10px;
+}
+table#deviceTab td p span.sp2 {
+	margin-right: 80px;
+}
+table#deviceTab thead tr {
+	display:block;
+	background: none !important;
+}
+table#deviceTab tbody {
+	display: block;
+	height: 360px;
+	overflow: auto;
+}
+table#deviceTab tbody td {
+	font-size: 14px;
+	padding: 15px 0;
+}
+table#deviceTab tbody td.deviceNum p {
+	margin: 5px 0;
+}
+
+.table-list .toolList p{
+	height: 36px;
+	line-height: 36px;
+	font-size: 14px;
+	margin-left: 30px;
+}
+.table-list .toolList .toolList_con {
+	padding:0 0 0 10px;
+	margin-left: 30px;
+}
+.table-list .toolList .toolList_con textarea {
+	width: 450px;
+	line-height: 24px;
+}
+span.hid {
+	display: none;
+	color: #FF0000;
+	margin-left: 10px;
+	font-weight:700;
+}
+
+
+
+/*弹窗样式*/
+/*.aui_state_focus table.aui_border tr td.aui_nw,.aui_state_focus table.aui_border tr td.aui_n,.aui_state_focus table.aui_border tr td.aui_ne,.aui_state_focus table.aui_border tr td.aui_w{*/
+	/*width: 0 !important;*/
+	/*height: 0 !important;*/
+	/*background: none;*/
+	/*border: none;*/
+/*}*/
+
+.aui_state_focus table.aui_border .aui_inner {
+	border: 1px solid #FFFFFF !important;
+}
+.aui_state_focus table.aui_border .aui_inner table .aui_title,.aui_state_focus table.aui_border .aui_inner table .aui_state_highlight {
+	background: #FF9900 !important;
+	-ms-background:#FF9900 !important;
+	color: #FFFFFF !important;
+	-ms-color: #FFFFFF !important;
+	border-color: #FF9900 !important;
+	-ms-border-color: #FF9900 !important;
+	box-shadow: none;
+	-ms-box-shadow: none;
+	text-shadow: none;
+	-ms-text-shadow: none;
+}
+
+.aui_state_focus .aui_outer,.aui_state_focus .aui_inner {
+	border: none !important;
+	-ms-border: none !important;
+
+}
+.aui_state_focus table.aui_border .aui_inner table .aui_close {
+	color: #ffffff;
+	-ms-color: #ffffff;
+	box-shadow: none;
+	text-shadow: none;
+}
+.aui_nw, .aui_n, .aui_ne, .aui_w, .aui_e, .aui_sw, .aui_s, .aui_se {
+	background: none !important;
+}
+.aui_nw, .aui_ne, .aui_sw, .aui_se {
+	width: 0 !important;
+	height: 0 !important;
+}
+
+
+/*中继器和混合型设备信号引入样式*/
+p.hascent,span.hascent {
+	position: relative;
+}
+
+p.hascent::after,span.hascent::after {
+	content: '';
+	background: url("http://resource.danbay.cn/common/images/wl.png");
+	background-size: 10px 10px;
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	top: -5px;
+	right: -4px;
+}
+
+@media screen and (max-device-width:1025px){
+	.header .nav{width:120%;min-width: 0;}
+	.header .top_menu_nav{overflow-x: scroll;width: 100%;}
+	.header.csdk .col-auto{width:auto!important;}
+	.pad-10>fieldset>.explain-col{min-width: 0!important;}
+	.pad-10 .table-list{overflow: scroll;max-height:400px;}
+	.pad-101{width:70%;overflow-y: scroll!important;}
+	.pad-102{width:50%;overflow-y: scroll!important;}
+	.contents{overflow:scroll!important;}
+}
